@@ -62,7 +62,13 @@ function taskAdd() {
 }
 
 function taskDelete(id) {
-    console.log('삭제 기능 확인' + id)
+    for(let i=0; i<taskList.length; i++){
+        if(taskList[i].id == id){
+            taskList.splice(i, 1); // i번째 인덱스의 요소를 삭제
+            break;
+        }
+    }
+    taskRender();
 }
 
 function taskRender() {
@@ -81,7 +87,7 @@ function taskRender() {
                     <button onClick="toggleComplete('${taskList[i].id}')" class="task-prev-button">
                         <i class="fa-solid fa-rotate-left"></i>
                     </button>
-                    <button class="task-delete-button">
+                    <button onClick="taskDelete('${taskList[i].id}')" class="task-delete-button">
                         <i class="fa-solid fa-trash"></i>
                     </button>
                 </div>
