@@ -71,19 +71,39 @@ function taskAdd() {
         isComplete: false
     };
     taskList.push(taskInfo);
+
+    // Active 탭이 선택되어 있을 경우 inProgressList 업데이트
+    if (chosenTab === 'in-Progress') {
+        inProgressList.push(taskInfo);
+    }
+
     taskRender(); // 버튼 클릭 시 taskRender() 함수 실행
     taskInput.value = ''; // 함수 실행 뒤 입력값 초기화
     tagContainer.innerHTML = ''; // 태그 컨테이너 초기화
     taskTag.value = ''; 
 }
 
+// function taskDelete(id) {
+//     for(let i=0; i<taskList.length; i++){
+//         if(taskList[i].id == id){
+//             taskList.splice(i, 1); // i번째 인덱스의 요소를 삭제
+//             break;
+//         }
+//     }
+//     taskRender();
+// }
+
 function taskDelete(id) {
-    for(let i=0; i<taskList.length; i++){
-        if(taskList[i].id == id){
-            taskList.splice(i, 1); // i번째 인덱스의 요소를 삭제
-            break;
-        }
+    // 전체 목록에서 할 일 삭제
+    taskList = taskList.filter(task => task.id !== id);
+
+    // 선택된 탭에 따라 적절히 목록 업데이트
+    if (chosenTab === 'in-Progress') {
+        inProgressList = inProgressList.filter(task => task.id !== id);
+    } else if (chosenTab === 'task-Done') {
+        taskDoneList = taskDoneList.filter(task => task.id !== id);
     }
+
     taskRender();
 }
 
@@ -145,7 +165,18 @@ function toggleComplete(id) {
             break;
         }
     }
-    taskRender();
+      // 선택된 탭에 따라 적절히 목록 업데이트
+    if (chosenTab === 'task-All') {
+        taskRender();
+    } else if (chosenTab === 'in-Progress') {
+        // 'in-Progress' 탭이 활성화된 경우, 필터링된 목록을 다시 생성
+        inProgressList = taskList.filter(task => !task.isComplete);
+        taskRender();
+    } else if (chosenTab === 'task-Done') {
+        // 'task-Done' 탭이 활성화된 경우, 필터링된 목록을 다시 생성
+        taskDoneList = taskList.filter(task => task.isComplete);
+        taskRender();
+    }
 }
 
 function kategorie(event){
