@@ -85,18 +85,19 @@ PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
  <div> 내가 추가한 할 일 리스트를 완료 처리하거나 삭제할 수 있도록 했습니다.</div>
 </div>
 <div>
- <img width="100%" src=""/>
+ <img width="100%" src="https://github.com/user-attachments/assets/96857e0a-ef2b-42c2-be5b-4448db73f471"/>
 </div>
+
 
 <div>
   <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 </div>
 
-<h3>  </h3>
+<h3> 예외 처리 </h3>
 <div>
- <div></div>
+ <div>어느 탭에 있어도 할 일 추가 및 삭제가 가능하게 랜더링될 수 있도록 작업했습니다.</div>
  <div></div>
 </div>
 <div>
- <img width="100%" src=""/>
+ <img width="100%" src="https://github.com/user-attachments/assets/657ad463-1a8f-4ad2-b3ba-c34cf836958e"/>
 </div>
