@@ -85,7 +85,7 @@ https://sweet-brigadeiros-3ecdf8.netlify.app/
  <div>입력한 숫자와 랜덤 숫자가 일치할 경우 축하 문구가 출력됩니다. </div>
 </div>
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/977e69e8-c532-41b1-b664-45cdb21d181c"/>
+ <img width="100%" src=""/>
 </div>
 
 <div>
@@ -99,5 +99,5 @@ https://sweet-brigadeiros-3ecdf8.netlify.app/
  <div>다시 진행할 경우 이전 게임에 입력했던 숫자는 다시 입력할 수 있습니다.</div>
 </div>
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/80fea5ba-ed64-4b88-ae23-4a4393d9b13f"/>
+ <img width="100%" src=""/>
 </div>
