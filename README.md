@@ -25,27 +25,27 @@ https://sweet-brigadeiros-3ecdf8.netlify.app/
 
 # 📌 프로젝트 개요
 
-<h3> 메인 화면 </h3>
+<h3> To-do List 홈페이지 </h3>
 <div>
- 메인 화면 페이지의 모습입니다.
+PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
 </div>
 <div>
+  <img width="100%" src="https://github.com/user-attachments/assets/129e9056-9c6f-4a09-a443-45d990498054"/>
+ <img width="100%" src="https://github.com/user-attachments/assets/835cfdaa-78ba-4188-a854-23113a86494a"/>
  <img width="100%" src=""/>
 </div>
 
-![image](https://github.com/user-attachments/assets/ec74ce9e-3eef-47f1-bcf0-a148d468167f)
 
 <div>
  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 </div>
 
-<h3> To-do List 홈페이지 </h3>
+<h3>  </h3>
 <div>
- <div>PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.</div>
+ <div></div>
 </div>
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/129e9056-9c6f-4a09-a443-45d990498054"/>
- <img width="100%" src="https://github.com/user-attachments/assets/835cfdaa-78ba-4188-a854-23113a86494a"/>
+  <img width="100%" src=""/>
 </div>
 
 
