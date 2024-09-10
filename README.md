@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7865df9e-bef0-4977-a4c6-2dac6871847a)# javascript를 활용하여 To-do List를 제작했습니다.
+# javascript를 활용하여 To-do List를 제작했습니다.
 
 # 🛠
 <div>
@@ -30,9 +30,8 @@ https://sweet-brigadeiros-3ecdf8.netlify.app/
 PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
 </div>
 <div>
-  <img width="100%" src="https://github.com/user-attachments/assets/129e9056-9c6f-4a09-a443-45d990498054"/>
- <img width="100%" src="https://github.com/user-attachments/assets/835cfdaa-78ba-4188-a854-23113a86494a"/>
- <img width="100%" src=""/>
+  <img width="70%" src="https://github.com/user-attachments/assets/129e9056-9c6f-4a09-a443-45d990498054"/>
+ <img width="70%" src="https://github.com/user-attachments/assets/835cfdaa-78ba-4188-a854-23113a86494a"/>
 </div>
 
 
