@@ -45,7 +45,7 @@ PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
  <div>할 일을 추가하고 싶으면 최소 1글자라도 입력해야 추가되게 했습니다.</div>
 </div>
 <div>
-  <img width="100%" src="https://github.com/user-attachments/assets/4107a9a0-852b-4585-aa57-fb77e22bcb2d"/>
+  <img width="70%" src="https://github.com/user-attachments/assets/4107a9a0-852b-4585-aa57-fb77e22bcb2d"/>
 </div>
 
 <div>
@@ -58,7 +58,7 @@ PC 및 모바일 환경 고려하여 웹페이지를 제작했습니다.
  <div> 태그의 경우 할 일 처럼 필수로 입력하지 않아도 됩니다.</div>
 </div>
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/291f9b78-9ddc-4bd1-851b-21c796958864"/>
+ <img width="70%" src="https://github.com/user-attachments/assets/291f9b78-9ddc-4bd1-851b-21c796958864"/>
 </div>
 
 
